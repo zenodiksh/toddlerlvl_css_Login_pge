@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+   
+
+}
+body{
+    height:100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+h2{
+    text-align: center;
+    color:#33ee4c;
+    padding-bottom: 3px;
+}
+.smallcard{
+    background-color: beige;
+    padding:20px;
+    border-radius: 5px;
+    height:100px;
+    width:175px;
+
+
+
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap:7px;
+}
+input{
+    width:70%;
+    
+}
+button{
+    background-color:#022206;
+    color:whitesmoke;
+
+
+}
+button:hover{
+       background-color: #c2f0c8;
+       color:black;
+}
